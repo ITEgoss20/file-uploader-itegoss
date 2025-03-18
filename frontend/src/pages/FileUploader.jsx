@@ -37,7 +37,7 @@ const FileUploader = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/upload-and-compare",
+        "https://backend-jtl6.onrender.com/api/upload-and-compare",
         {
           method: "POST",
           body: formData,
